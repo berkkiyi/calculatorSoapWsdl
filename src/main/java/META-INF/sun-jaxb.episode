@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2019.11.18 à 09:41:42 PM EST 
+
+  -->
+  <bindings xmlns:tns="http://tempuri.org/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.wcf.wsdl"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:Add">
+      <class ref="com.wcf.wsdl.Add"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:AddResponse">
+      <class ref="com.wcf.wsdl.AddResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:Subtract">
+      <class ref="com.wcf.wsdl.Subtract"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:SubtractResponse">
+      <class ref="com.wcf.wsdl.SubtractResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:Multiply">
+      <class ref="com.wcf.wsdl.Multiply"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:MultiplyResponse">
+      <class ref="com.wcf.wsdl.MultiplyResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:Divide">
+      <class ref="com.wcf.wsdl.Divide"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:DivideResponse">
+      <class ref="com.wcf.wsdl.DivideResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
